@@ -1,0 +1,120 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color:  black;
+  margin: 50px;
+  
+  
+  }
+
+.card_container{
+  background: #ef32d9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #89fffd, #ef32d9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #89fffd, #ef32d9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.text_title{
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-size: 25px;
+
+}
+
+iheader{
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+.pacifico-regular {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+#title{
+  text-align: center;
+  
+  }
+
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.titulo_parrafo{
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  font-size: 25px;
+
+}
+
+
+
+#title{
+  color: black;
+  font-family: 'Arial', sans-serif;
+  font-size: 25px;
+  font-weight: 900;
+  
+}
+
+#text_img{
+  text-align: justify;
+  padding: 10px;
+  
+}
+.container_img{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  
+  
+}
+
+.frase{
+  text-align: center;
+  font-family: cursive;
+  font-size: 25px;
+  font-weight: bold;
+  
+}
+section div h2{
+  text-align: center;
+  font-family: cursive;
+  font-size: 25px;
+  font-weight: bold;
+}
+.parrafo{
+  text-align: justify;
+  padding: 25px;
+
+}
+
+img{
+  border-width: 10px;
+  border-style: solid;
+  border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+}
+
+footer{
+  background: #ef32d9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #62b7b5, #8f1080);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #519392, #942087); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 2%;
+  font-size: 12px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+  
